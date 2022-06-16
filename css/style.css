@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    
+}
+ul {
+    list-style-type: none;
+}
+ a {
+    text-decoration:none;
+ }
+.header .logo img {
+    width: 35rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+ul  {
+    display: flex;
+    float: right;
+   
+}
+ li a {
+    margin-right:6rem;
+    color: black;
+}
+.container {
+    max-width: 100%;
+}
+#nav-bar ul li{
+    margin-top: -3rem;
+    font-size: 1.5rem;
+}
+#home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home-section h2 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+#home-section input {
+    margin-top: 3rem;
+    border-radius: 3px;
+}
+input::placeholder {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 50%;
+}
+ input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #000;
+
+}
+ input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+    font-size: 1.5rem;
+}
+
+.btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #ff8c00;
+}
+.container {
+   max-width: 120rem;
+   margin-left: 15rem;
+   
+}
+.premium {
+   display: flex;
+   margin-top: 10rem;
+   margin-bottom: 8rem;
+}
+
+
+.premium .icon  {
+    margin-right: 7.5rem;
+   font-size: 1.5rem;
+   color: #ff8c00;
+}
+.premium h2 {
+    font-size: 2.5rem;
+}
+.premium span {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.shipping {
+    display: flex;
+    margin-bottom: 8rem;
+}
+.shipping h2 {
+    font-size: 2.5rem;
+}
+
+.shipping span {
+    font-size: 1.5rem;
+}
+.description h2 { 
+    margin-bottom: 1rem;
+ }
+
+.shipping .icon { 
+    margin-right: 6rem;
+    font-size: 1.5rem;
+    color: #ff8c00;
+}
+
+.assurance {
+    display: flex;
+}
+.assurance h2 {
+    font-size: 2.5rem;
+}
+.assurance span {
+    font-size: 1.5rem;
+}
+.assurance .icon {
+    margin-right: 6.5rem;
+    font-size: 1.5rem;
+    color: #ff8c00;
+}
+.video__content > iframe {
+    max-width: 560px;
+    width: 100%;
+    
+}
+
+iframe {
+    height: 315px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    margin-top:10rem;
+    
+}
+.video__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 180rem;
+   
+}
+.card-content {
+    border:1px solid black;
+    width: 28rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: column;    
+    font-size: 1.5rem;
+    border-radius: 3px;
+     margin-top: 5rem;
+     margin-left: 2rem;
+    
+
+}
+
+.card-content .title {
+   margin-left: 8rem;
+   margin-bottom: 4rem;
+   margin-top: 2rem;
+}
+
+.card-content .content-item {
+    margin: 0 auto;
+
+}
+.content-item p {
+    justify-content:space-between;
+    
+}
+.card-content .content-item h3  {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+.card-content .content-item p {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.card-content .content-item button {
+    margin-top: 3rem;
+    width: 10rem;
+    padding: 1rem;
+    margin-left: 1rem;
+       
+}
+button {
+   
+}
+.select{
+border:none;
+background-color: #f1c40f;
+cursor: pointer;
+}
+
+#btn-end {
+    margin-left: 3.5rem;
+}
+
+.footer-container  {
+    display: flex;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 1.5rem;
+    margin-left: 65rem;
+    
+}
+ .copyright {
+    margin-left: 60rem;
+    margin-top: -1rem;
+}
+.info ul {
+    display: flex;
+    margin: 0 auto;
+}
+.info li {
+    margin-left: 1rem;
+}
+ .copyright  span {
+    font-size: 1.5rem;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px; 
+    max-width: 70%;
+   margin-left: 20rem;
+}
